@@ -14,7 +14,15 @@ h1 {
 }
 
 main {
-    width: 800px;
+    max-width: 800px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 0;
+    box-shadow: 0 0 30px gray;
 }
 
 aside {
@@ -32,13 +40,7 @@ aside img {
     height: auto;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 0;
-    box-shadow: 0 0 30px gray;
-}
+
 
 p {
     padding: 0;
