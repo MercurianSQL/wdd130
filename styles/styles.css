@@ -6,7 +6,7 @@
 
 :root {
     --heading-background-color: darkblue;
-    --heading-text-color: white;
+    --heading-text-color: black;
     --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgba(0 0 0 / 0.3);
@@ -40,11 +40,11 @@ main img {
     border: 1px solid black;
     padding: 0;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 aside {
     width: 20rem;
-    color: var(--heading-background-color);
     text-align: center;
 }
 
@@ -52,8 +52,6 @@ aside img {
     width: 200px;
     height: auto;
 }
-
-
 
 p {
     padding: 0;
@@ -66,9 +64,10 @@ footer {
 }
 
 /* Class Selectors */
-.class: box {
+.box {
     margin: 1rem;
     border: 1px solid rgba(0 0 0 / 0.3);
     padding: 1rem;
-    background-color: lightskyblue;
+    background-color: lightyellow;
+    color: black;
 }
