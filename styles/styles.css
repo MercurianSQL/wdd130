@@ -48,9 +48,14 @@ aside {
     text-align: center;
 }
 
+aside h2{
+    position: relative;
+    top: 185px;
+}
 aside img {
     width: 200px;
     height: auto;
+    margin-bottom: 25px;
 }
 
 p {
