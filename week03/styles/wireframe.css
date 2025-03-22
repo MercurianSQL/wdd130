@@ -1,5 +1,5 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Tahoma, sans-serif;
     margin: 10px;
     border: 1px solid #eee;
     padding: 5px;
@@ -8,7 +8,8 @@
 :root {
     --heading-background-color: darkblue;
     --heading-text-color: black;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --heading-font: Tahoma, Verdana, sans-serif;
+    --font-text: 'Trebuchet MS', Verdana, Tahoma, sans-serif;
     --padding: 1rem;
     --border: 10px solid rgba(0 0 0 / 0.3);
 }
