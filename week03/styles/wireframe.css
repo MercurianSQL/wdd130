@@ -1,0 +1,16 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+
+:root {
+    --heading-background-color: darkblue;
+    --heading-text-color: black;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 10px solid rgba(0 0 0 / 0.3);
+}
+/* Comments go down here */
+/* https://coolors.co/palette/d15560-fb7e4e-fde829-5f9747-1a2a49 */
