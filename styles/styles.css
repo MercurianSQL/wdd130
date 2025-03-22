@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -48,10 +48,11 @@ aside {
     text-align: center;
 }
 
-aside h2{
+aside h2 {
     position: relative;
     top: 185px;
 }
+
 aside img {
     width: 200px;
     height: auto;
