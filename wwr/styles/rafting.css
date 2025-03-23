@@ -27,6 +27,10 @@ h6 {
     padding: var(--padding);
 }
 
+footer {
+    text-decoration: none;
+}
+
 .sriracha-regular {
     font-family: "Sriracha", cursive;
     font-weight: 400;
