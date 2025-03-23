@@ -68,5 +68,18 @@
     font-style: italic;
 }
 
+.hero-image {
+    background-image: <img src="images/hero-1024.webp" alt="Rafting Adventure" >;
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 /* Comments go down here */
 /* https://coolors.co/palette/d15560-fb7e4e-fde829-5f9747-1a2a49 */
