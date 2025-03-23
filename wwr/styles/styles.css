@@ -68,17 +68,26 @@
     font-style: italic;
 }
 
-.hero-image {
-    background-image: <img src="images/hero-1024.webp" alt="Rafting Adventure" >;
 
-    /* Set a specific height */
-    height: 50%;
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #1A2A49;
     position: relative;
+}
+
+.h1 img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 0;
+    box-shadow: 0 0 30px #5F9747;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 /* Comments go down here */
