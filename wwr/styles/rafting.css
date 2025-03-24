@@ -1,36 +1,33 @@
 * {
     font-family: Ubuntu, Verdana, sans-serif;
-    margin: 10px;
-    border: 1px solid #eee;
     padding: 5px;
-    max-width: 1024px;
+    max-width: 100%;
 }
 
 :root {
-    --heading-background-color: #1A2A49;
-    --heading-text-color: white;
+    --primary-color: rgba(26 42 73 / 1);
+    /* #1A2A49; */
+    --secondary-color: white;
+    /* rgba(255 255 255 / 1), #fff, #ffffff; */
+    --accent1-color: rgba(253 232 41 / 1);
+    /* #FDE829; */
+    --accent2-color: rgba(251 126 78 / 1);
+    /* #FB7E4E; */
+    --text-color: rgba(0 0 0 / 1);
+    /* black, #000, #000000; */
+    --background-color: rgba(95 151 71 / 1);
+    /* #5F9747; */
+    --border-color: rgba(209 85 96 / 1);
+    /* #D15560; */
     --heading-font: Sriracha, Tahoma, sans-serif;
     --font-text: Ubuntu, Verdana, sans-serif;
+    --float-background-color: rgba(0 0 0 / 0.5);
     --padding: 1rem;
-    --border: 10px solid rgba(0 0 0 / 0.3);
+    --border: 1px solid rgba(0 0 0 / 0.3);
+    --margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    background-color: var(--heading-background-color);
-    color: var(--heading-text-color);
-    font-family: var(--heading-font);
-    padding: var(--padding);
-}
-
-footer {
-    text-decoration: none;
-}
-
+/* fonts */
 .sriracha-regular {
     font-family: "Sriracha", cursive;
     font-weight: 400;
@@ -85,19 +82,44 @@ footer {
     font-style: italic;
 }
 
+/* end of fonts */
 
-.hero img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border: 2px solid white;
-    padding: 5px;
-    margin: 0 auto;
-    background-color: #1A2A49;
-    position: relative;
+.hero {
+    background-color: var(--primary-color);
+    position: bottom;
+    max-width: 70%;
 }
 
-.h1 img {
+
+h1 {
+    background-color: var(--float-background-color);
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+    border: var(--border);
+    margin: var(--margin);
+}
+
+h2 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+    border: var(--border);
+    margin: var(--margin);
+}
+
+
+
+.team {
+    border: 1px solid black;
+    padding: 0;
+    box-shadow: 0 0 30px #5F9747;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.team-img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -105,6 +127,10 @@ footer {
     box-shadow: 0 0 30px #5F9747;
     float: right;
     margin: 0 0 1rem 1rem;
+}
+
+footer aside a {
+    text-decoration: none;
 }
 
 /* Comments go down here */
