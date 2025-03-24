@@ -107,6 +107,7 @@ h1 {
 
 article {
     font-style: italic;
+    position: absolute;
 }
 
 h2 {
