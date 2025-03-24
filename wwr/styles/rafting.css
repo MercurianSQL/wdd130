@@ -2,7 +2,7 @@
     font-family: Ubuntu, Verdana, sans-serif;
     padding: 5px;
     max-width: 100%;
-    position: fixed;
+    position: initial;
 }
 
 :root {
@@ -87,9 +87,10 @@
 
 .hero {
     background-color: var(--primary-color);
+    color: var(--secondary-color);
     position: bottom;
     max-width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 
@@ -99,8 +100,9 @@ h1 {
     font-family: var(--heading-font);
     padding: var(--padding);
     border: var(--border);
-    margin-bottom: 100px;
+    margin-top: 0;
     position: absolute;
+    transform: translate(0%, -100px);
 }
 
 h2 {
