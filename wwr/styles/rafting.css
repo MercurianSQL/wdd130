@@ -102,12 +102,13 @@ h1 {
     border: var(--border);
     margin-top: 0;
     position: absolute;
-    transform: translate(0%, -130px);
+    transform: translate(0%, -260px);
 }
 
 article {
     font-style: italic;
     position: absolute;
+    transform: translate(0%, -100px);
 }
 
 h2 {
