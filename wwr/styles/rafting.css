@@ -22,7 +22,7 @@
     /* #D15560; */
     --heading-font: Sriracha, Tahoma, sans-serif;
     --font-text: Ubuntu, Verdana, sans-serif;
-    --float-background-color:rgba(251 126 78 / 0.3);
+    --float-background-color: rgba(251 126 78 / 0.3);
     --padding: 1rem;
     --border: 1px solid rgba(0 0 0 / 0.3);
     --margin: 0 auto;
@@ -92,6 +92,31 @@
     position: relative;
 }
 
+.team {
+    border: 1px solid black;
+    padding: 0;
+    box-shadow: 0 0 30px #5F9747;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.team-img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 0;
+    box-shadow: 0 0 30px #5F9747;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--float-background-color)
+}
 
 h1 {
     background-color: var(--float-background-color);
@@ -120,33 +145,50 @@ h2 {
     margin: var(--margin);
 }
 
-
-
-.team {
-    border: 1px solid black;
-    padding: 0;
-    box-shadow: 0 0 30px #5F9747;
-    float: right;
-    margin: 0 0 1rem 1rem;
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.team-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 0;
-    box-shadow: 0 0 30px #5F9747;
-    float: right;
-    margin: 0 0 1rem 1rem;
+.h2 {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+h2 img {
+    float: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+}
+ 
+img {
+    max-width: 150px auto;
+}
+
+footer{
+    text-align: center;
 }
 
 footer img {
     width: 50px;
     height: auto;
 }
+
 footer aside a {
     text-decoration: none;
-    
+
 }
+
 /* Comments go down here */
 /* https://coolors.co/palette/d15560-fb7e4e-fde829-5f9747-1a2a49 */
