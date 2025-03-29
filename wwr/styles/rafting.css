@@ -93,15 +93,15 @@
     min-height: 450px;
 }
 
-.hero h1{
+.hero h1 {
     background-color: rgba(251 126 78 / .3);
 }
+
 .hero img {
     width: 1000px;
     max-height: auto;
-
-    
 }
+
 .team {
     border: 1px solid black;
     padding: 0;
@@ -174,14 +174,16 @@ h2 {
 }
 
 .adventure {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
+    column-gap: 2px;
     text-align: center;
-    }
+}
 
 .adventure img {
-    max-width: 150px;
+    max-width: 180px;
 }
 
 footer {
@@ -195,7 +197,6 @@ footer img {
 
 footer aside a {
     text-decoration: none;
-
 }
 
 /* Comments go down here */
