@@ -108,7 +108,7 @@
     float: right;
     margin: 0 0 1rem 1rem;
     text-align: justify;
-    
+
 }
 
 .hero-text img {
@@ -119,7 +119,7 @@
     box-shadow: 0 0 30px #5F9747;
     float: right;
     margin: 0 0 1rem 1rem;
-    
+
 }
 
 header {
@@ -128,6 +128,14 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: var(--float-background-color)
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--float-background-color);
+    padding: var(--padding);
 }
 
 h1 {
@@ -188,7 +196,9 @@ h2 {
 }
 
 footer {
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-items: right;
 }
 
 footer img {
