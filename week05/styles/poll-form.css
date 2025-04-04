@@ -1,8 +1,7 @@
-
-.montserrat-<uniquifier> {
+.montserrat-regular {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
   }
 
@@ -17,30 +16,19 @@
     font-weight: 700;
     font-style: normal;
   }
-  
-  .courier-prime-regular-italic {
-    font-family: "Courier Prime", monospace;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .courier-prime-bold-italic {
-    font-family: "Courier Prime", monospace;
-    font-weight: 700;
-    font-style: italic;
-  }
 
-* {
+  * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "montserrat-regular", sans-serif;
     font-size: 1rem;
 }
+
 :root {
     --heading-background-color: darkblue;
     --heading-text-color: black;
-    --heading-font: Montserrat, Helvetica, sans-serif;
+    --heading-font: "courier-prime-regular";
     --padding: 1rem;
     --border: 10px solid rgba(0 0 0 / 0.3);
 }
