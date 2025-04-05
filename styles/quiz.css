@@ -19,7 +19,7 @@
     /* black, #000, #000000; */
     --background-color: rgba(95 151 71 / 1);
     /* #5F9747; */
-    --border-color: rgba(209 85 96 / );
+    --border-color: rgba(209 85 96 /);
     /* #D15560; */
     --padding: 1rem;
     --border: 10px solid rgba(33 0 0 / 0.3);
@@ -49,10 +49,11 @@ form {
     border: var(--border);
     border-radius: 5px;
     background-color: rgba(253 232 41 / .3);
-    display: ;
+    display: block;
     gap: 10px;
 }
 
+/* fieldset 3/4 is not shrinking */
 fieldset {
     border: 1px solid black;
     padding: 10px;
@@ -90,12 +91,13 @@ ol {
     text-align: left;
 }
 
+/* button is not centered */
 button {
     font-family: var(--heading-font);
     margin: var(--margin);
     background-color: #1A2A49;
     color: white;
-    border-radius: 5px;
+    box-shadow: black 0px 0px 5px;
     padding: var(--padding);
     font-size: 1.5rem;
     cursor: pointer;
@@ -113,4 +115,14 @@ footer {
     margin-top: var(--margin);
     font-size: 1.5rem;
     border-top: 10px solid rgba(26 42 73 / .8)
+}
+
+.ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: var(--margin);
+    font-size: 1.2rem;
+    line-height: 0;
+    background-color: white;
+    box-shadow: black 0px 0px 5px;
 }
