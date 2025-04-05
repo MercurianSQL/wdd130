@@ -86,11 +86,6 @@ textarea {
     text-align: left;
 }
 
-ol {
-    font-size: 1.1rem;
-    text-align: left;
-}
-
 /* button is not centered */
 button {
     background-color: #1A2A49;
@@ -104,8 +99,6 @@ button:hover {
     background-color: #5F9747;
 }
 
-
-
 footer {
     text-align: center;
     margin-top: var(--margin);
@@ -114,7 +107,6 @@ footer {
 }
 
 .ol {
-    list-style-type: decimal;
     padding-left: 20px;
     margin: var(--margin);
     font-size: 1.2rem;
