@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +10,54 @@
     <meta name author="Marinda Keller">
     <link rel="stylesheet" href="quiz.css">
 </head>
+
 <body>
     <header>
-<h1>Totally Optional Quiz</h1>
+        <h1>Totally Optional Quiz</h1>
     </header>
 
     <main>
         <form>
-        <fieldset>
-            <legend>Question 1</legend>
-            <label>
+            <fieldset>
+                <legend>Questions 1 & 2</legend>
+                <label for="q1">What is the accepted acryonym for Accessible Rich Internet Applications?</label>
+                <input type="text" id="q1" name="q1" placeholder="Enter an acryonym here">
+                <label for="q2">Name at least two examples of assistive technology:</label>
+                <input type="textarea" id="q2" name="q2" placeholder="Your answer goes here.">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Questions 3 & 4</legend>
+                <label for="q3">What minimum code is needed for an image to be accessible?</label>
+                <select id="q3" name="q3">
+                    <option value="select" selected disabled>Select the correct code snippet</option>
+                    <option value="try-again">&lt;img src="file.name"></option>
+                    <option value="correct">&lt;img src="file.name" alt="description"></option>
+                    <option value="try-again, overachiever">&lt;img src="file.name" alt="description" title="title">
+                    </option>
+                    <option value="try-again">&lt;img src="file.name" alt="description" title="title">&lt;/img></option>
+                </select>
+                <p></p>
+                <label for="q4">Select the asssistive technology that helps an ELL understand which sounds are being
+                    spoken?</label>
+                <ol>
+                    <li>Closed Captions in English</li>
+                    <li>Screen Magnifier</li>
+                    <li>Screen Reader</li>
+                    <li>Subtitles in the learner's first language</li>
+                </ol>
+                <label for="q4">Enter the number:</label>
+                <input type="number" id="q4" name="q4" min="1" max="4" step="1" required>
 
-            </label>
-        </fieldset>
-    </form>
+                <!-- <input type="submit" value="Submit"> -->
+
+
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
     </main>
 
     <footer></footer>
 </body>
+
 </html>
