@@ -93,22 +93,18 @@ ol {
 
 /* button is not centered */
 button {
-    font-family: var(--heading-font);
-    margin: var(--margin);
     background-color: #1A2A49;
     color: white;
     box-shadow: black 0px 0px 5px;
-    padding: var(--padding);
     font-size: 1.5rem;
     cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 button:hover {
     background-color: #5F9747;
 }
+
+
 
 footer {
     text-align: center;
