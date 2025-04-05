@@ -1,8 +1,8 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: var(--margin);
+    padding: var(--padding);
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 :root {
@@ -20,43 +20,44 @@
     /* #5F9747; */
     --border-color: rgba(209 85 96 / 1);
     /* #D15560; */
-    --padding: 1rem;
+    --padding: 1em;
     --border: 10px solid rgba(33 0 0 / 0.3);
     --margin: 5px auto;
 }
 
 header,
 h1 {
-    color: var(--primary-color);
+    background-color: rgba(26 42 73 / .8);
+    color: white;
     font-size: 2rem;
     padding: var(--padding);
-    border: 5px solid var(--accent2-color);
+    border: 5px dashed var(--border-color);
     justify-items: center;
     text-align: center;
 }
 
 body,
 footer {
-    margin: 5px auto;
+    margin: var(--margin);
     padding: var(--padding);
 }
 
 form {
-    margin: auto;
-    padding: 1rem;
+    margin: var(--margin);
+    padding: var(--padding);
     border: var(--border);
     border-radius: 5px;
-    background-color: var(--accent1-color);
+    background-color: rgba(253 232 41 / .3);
     display: grid;
     gap: 10px;
-    margin: var(--margin);
 }
 
 fieldset {
     border: 1px solid black;
-    padding: 1rem;
-    margin: 1rem;
+    padding: var(--padding);
+    margin: var(--margin);
     background-color: lightyellow;
+    /* background-color: var(--background-color);  RESTART HERE*/
     display: grid;
     gap: 10px;
 }
@@ -65,29 +66,29 @@ legend {
     font-family: var(--heading-font);
     font-size: 1.5rem;
     color: var(--heading-background-color);
-    padding: 0.5rem;
+    padding: var(--padding);
 }
 
 label {
     text-align: right;
-    padding-right: 1rem;
+    padding-right: var(--padding);
 }
 
 input,
 select,
 textarea {
     font-size: 1.2rem;
-    padding: 0.5rem;
+    padding: var(--padding);
 }
 
 button {
     font-family: var(--heading-font);
-    margin: auto;
+    margin: var(--margin);
     background-color: var(--heading-background-color);
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: var(--padding);
     font-size: 1.5rem;
     cursor: pointer;
 }
