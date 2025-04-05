@@ -120,3 +120,23 @@ footer {
     margin-top: 15px;
     border-top: 10px solid var(--heading-background-color);
 }
+
+.form-items {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .25rem;
+}
+
+.required::after {
+    content: " *";
+    color: red;
+    font-size: 2rem;
+}
