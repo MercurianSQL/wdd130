@@ -3,6 +3,8 @@
     padding: var(--padding);
     box-sizing: border-box;
     font-size: 20px;
+    font-family: sans-serif;
+    display: grid;
 }
 
 :root {
@@ -12,13 +14,13 @@
     /* rgba(255 255 255 / 1), #fff, #ffffff; */
     --accent1-color: rgba(253 232 41 / 1);
     /* #FDE829; */
-    --accent2-color: rgba(251 126 78 / 1);
+    --accent2-color: rgba(251 126 78 / .6);
     /* #FB7E4E; */
     --text-color: rgba(0 0 0 / 1);
     /* black, #000, #000000; */
     --background-color: rgba(95 151 71 / 1);
     /* #5F9747; */
-    --border-color: rgba(209 85 96 / 1);
+    --border-color: rgba(209 85 96 / );
     /* #D15560; */
     --padding: 1em;
     --border: 10px solid rgba(33 0 0 / 0.3);
@@ -48,18 +50,17 @@ form {
     border: var(--border);
     border-radius: 5px;
     background-color: rgba(253 232 41 / .3);
-    display: grid;
+    /* display: grid; */
     gap: 10px;
 }
 
 fieldset {
     border: 1px solid black;
-    padding: var(--padding);
-    margin: var(--margin);
-    background-color: lightyellow;
-    /* background-color: var(--background-color);  RESTART HERE*/
-    display: grid;
-    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: ivory;
+    /* display: grid; */
+    gap: 1px;
 }
 
 legend {
@@ -70,21 +71,31 @@ legend {
 }
 
 label {
-    text-align: right;
+    text-align: left;
     padding-right: var(--padding);
+    font-size: 1.2rem;
 }
+
 
 input,
 select,
 textarea {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: var(--padding);
+    background-color: var(--accent2-color);
+    text-align: left;
+}
+
+li {
+    font-size: 1.1rem;
+    padding: 0;
+    text-align: center;
 }
 
 button {
     font-family: var(--heading-font);
     margin: var(--margin);
-    background-color: var(--heading-background-color);
+    background-color: #1A2A49;
     color: white;
     border: none;
     border-radius: 5px;
@@ -98,10 +109,8 @@ button:hover {
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    border-top: 10px solid var(--heading-background-color);
+    text-align: center;
+    margin-top: var(--margin);
+    font-size: 1.5rem;
+    border-top: 10px solid rgba(26 42 73 / .8)
 }

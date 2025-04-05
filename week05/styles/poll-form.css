@@ -138,5 +138,5 @@ footer {
 .required::after {
     content: " *";
     color: red;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
