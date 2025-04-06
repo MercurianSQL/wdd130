@@ -19,11 +19,15 @@
     /* black, #000, #000000; */
     --background-color: rgba(95 151 71 / 1);
     /* #5F9747; */
-    --border-color: rgba(209 85 96 /);
+    --border-color: rgba(209 85 96 /1);
     /* #D15560; */
     --padding: 1rem;
     --border: 10px solid rgba(33 0 0 / 0.3);
     --margin: auto auto;
+}
+
+main {
+    display: grid;
 }
 
 header,
@@ -51,6 +55,7 @@ form {
     background-color: rgba(253 232 41 / .3);
     display: block;
     gap: 10px;
+    text-align: center;
 }
 
 /* fieldset 3/4 is not shrinking */
@@ -86,7 +91,6 @@ textarea {
     text-align: left;
 }
 
-/* button is not centered */
 button {
     background-color: #1A2A49;
     color: white;
