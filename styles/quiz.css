@@ -26,8 +26,9 @@
     --margin: auto auto;
 }
 
-main {
-    display: grid;
+body {
+    min-width: 736px;
+    display: block;
 }
 
 header,
@@ -35,16 +36,14 @@ h1 {
     background-color: rgba(26 42 73 / .8);
     color: white;
     font-size: 2rem;
-    padding: var(--padding);
     border: 5px dashed var(--border-color);
-    justify-items: center;
     text-align: center;
+    justify-items: center;
+    margin: var(--margin);
 }
 
-body,
-footer {
-    margin: var(--margin);
-    padding: var(--padding);
+main {
+    display: grid
 }
 
 form {
@@ -53,12 +52,10 @@ form {
     border: var(--border);
     border-radius: 5px;
     background-color: rgba(253 232 41 / .3);
-    display: block;
     gap: 10px;
     text-align: center;
 }
 
-/* fieldset 3/4 is not shrinking */
 fieldset {
     border: 1px solid black;
     padding: 10px;
@@ -80,7 +77,6 @@ label {
     padding-right: var(--padding);
     font-size: 1.2rem;
 }
-
 
 input,
 select,
@@ -117,4 +113,5 @@ footer {
     line-height: 0;
     background-color: white;
     box-shadow: black 0px 0px 5px;
+    text-align: left;
 }
