@@ -201,6 +201,7 @@ h2 {
 #form-container {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
     gap: 10px;
     align-items: center;
     justify-items: center;
@@ -237,14 +238,16 @@ button {
 .find-us {
     display: grid;
     gap: 10px;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    justify-items: inline-block;
+    align-items: center;
 }
 .column1 {
     display: grid;
     /* grid-template-columns: repeat(2, auto); */
     gap: 10px;
     justify-content: left;
+    justify-items: inline-block;
     align-items: left;
     width: 100%;
 }
@@ -254,6 +257,7 @@ button {
     /* grid-template-columns: repeat(2, auto); */
     gap: 10px;
     justify-content: center;
+    justify-items: inline-block;
     align-items: center;
     width: 100%;
 }
@@ -263,6 +267,7 @@ button {
     /* grid-template-columns: repeat(2, auto); */
     gap: 10px;
     justify-content: right;
+    justify-items: inline-block;
     align-items: right;
     width: 100%;
 }
@@ -276,6 +281,12 @@ button {
     height: auto;
 }
 
+.t-columns {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
 .new-team {
     /* display: grid; */
     width: 200px;
