@@ -198,12 +198,13 @@ h2 {
 }
 
 /* used on contact.html */
-.form-container {
+#form-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     gap: 10px;
-    justify-content: center;
     align-items: center;
+    justify-items: center;
+    width: 100%;
 }
 
 form {
@@ -241,18 +242,29 @@ button {
 }
 .column1 {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    /* grid-template-columns: repeat(2, auto); */
     gap: 10px;
     justify-content: left;
     align-items: left;
+    width: 100%;
 }
 
 .column2 {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    /* grid-template-columns: repeat(2, auto); */
     gap: 10px;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.column3 {
+    display: grid;
+    /* grid-template-columns: repeat(2, auto); */
+    gap: 10px;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
 }
 .map {
     width: 100%;
