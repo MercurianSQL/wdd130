@@ -200,8 +200,8 @@ h2 {
 /* used on contact.html */
 #form-container {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-rows: auto; */
     gap: 10px;
     align-items: center;
     justify-items: center;
@@ -210,6 +210,7 @@ h2 {
 
 form {
     display: grid;
+    grid-template-columns: 1fr 2fr;
     font-size: 1.2rem;
 }
 
