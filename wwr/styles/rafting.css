@@ -198,7 +198,7 @@ h2 {
 }
 
 /* used on contact.html */
-#form-container {
+#page-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     /* grid-template-rows: auto; */
