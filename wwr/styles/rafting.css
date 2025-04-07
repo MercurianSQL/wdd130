@@ -4,46 +4,55 @@
     font-weight: 400;
     font-style: normal;
 }
+
 .ubuntu-light {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
+
 .ubuntu-regular {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .ubuntu-medium {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+
 .ubuntu-bold {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
+
 .ubuntu-light-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: italic;
 }
+
 .ubuntu-regular-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: italic;
 }
+
 .ubuntu-medium-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: italic;
 }
+
 .ubuntu-bold-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: italic;
 }
+
 /* end of fonts */
 
 * {
@@ -189,7 +198,78 @@ h2 {
 }
 
 /* used on contact.html */
+.form-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
 
+form {
+    display: grid;
+    font-size: 1.2rem;
+}
+
+button {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.action {
+    font-size: 3.5rem;
+    padding: 0;
+    text-align: center;
+}
+
+.email {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    justify-content: left;
+    align-items: left;
+    margin: 0 auto;
+}
+
+.find-us {
+    display: grid;
+    gap: 10px;
+    justify-content: right;
+    align-items: right;
+}
+.column1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    justify-content: left;
+    align-items: left;
+}
+
+.column2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    justify-content: left;
+    align-items: left;
+}
+.map {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+.new-team {
+    /* display: grid; */
+    width: 200px;
+    height: auto;
+
+}
 
 
 
