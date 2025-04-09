@@ -160,7 +160,7 @@ article {
 
 .split {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: 1fr;
     gap: 5px;
     align-items: center;
