@@ -280,57 +280,24 @@ button {
     }
 
 
+.item5 {
+    grid-column: 2;
+    grid-row: 4;
+   width: auto;
+}
 
-.column1 {
+.employee {
     display: grid;
-    /* grid-template-columns: repeat(2, auto); */
-    gap: 10px;
-    justify-content: left;
-    justify-items: inline-block;
-    align-items: left;
-    width: 100%;
-}
-
-.column2 {
-    display: grid;
-    /* grid-template-columns: repeat(2, auto); */
-    gap: 10px;
-    justify-content: center;
-    justify-items: inline-block;
-    align-items: center;
-    width: 100%;
-}
-
-.column3 {
-    display: grid;
-    /* grid-template-columns: repeat(2, auto); */
-    gap: 10px;
-    justify-content: right;
-    justify-items: inline-block;
-    align-items: right;
-    width: 100%;
+grid-column: 3;
+    justify-items: center;
+    text-align: center;
 }
 
 
 
-.map img {
-    width: 100%;
-    height: auto;
-}
 
-.t-columns {
-    display: grid;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
 
-.new-team {
-    /* display: grid; */
-    width: 200px;
-    height: auto;
 
-}
 
 
 
