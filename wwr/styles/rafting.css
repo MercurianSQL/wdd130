@@ -58,8 +58,6 @@
 * {
     font-family: Ubuntu, Verdana, sans-serif;
     padding: 5px;
-    max-width: 100%;
-    position: initial;
 }
 
 :root {
@@ -216,7 +214,7 @@ h2 {
 form {
     display: grid;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: span 3;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -231,50 +229,57 @@ fieldset {
 }
 
 label {
+    display: grid;
+    grid-column: 1;
     font-size: 1.5rem;
-    text-align: left;
 }
 
-
+input {
+    display: grid;
+    grid-column: 2;
+    font-size: 1.5rem;
+}
 
 button {
-    font-size: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.item2 {}
-
-.item3 {
-    font-size: 1.5rem;
-    padding: 0;
-    text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    width: 100%;
+    grid-column: span 2;
+    font-size: 1.5rem;
 }
 
-.email {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    justify-content: left;
-    align-items: left;
-    margin: 0 auto;
-}
 
 .find-us {
     display: grid;
-    gap: 10px;
-    justify-content: center;
-    justify-items: inline-block;
-    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1.5rem;
+    text-align: center;
 }
+
+.map {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.item3 { 
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.item4 {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+
 
 .column1 {
     display: grid;
@@ -306,11 +311,7 @@ button {
     width: 100%;
 }
 
-.map {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
+
 
 .map img {
     width: 100%;

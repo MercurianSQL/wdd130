@@ -42,33 +42,44 @@
             <form>
                 <fieldset>
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" autocomplete="name">
                     <label for="email"> Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <input type="radio">
-                    <label id="general" name="general">General inquiry</label>
-                    <input type="radio">
-                    <label id="reserve" name="reserve">Reservation question</label>
-                    <input type="radio">
-                    <label id="website" name="Website">Website suggestion</label>
+                    <input type="email" id="email" name="email" autocomplete="email">
+                    <label for="general">General inquiry</label>
+                    <input type="radio" id="general" name="general">
+                    <label for="reserve">Reservation question</label>
+                    <input type="radio" id="reserve" name="reserve">
+                    <label for="website">Website suggestion</label>
+                    <input type="radio" id="website" name="Website">
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-                    <input type="checkbox" id="subscribe" name="subscribe">
                     <label for="subscribe">Please, subscribe me to the monthly newsletter.</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+
                     <button type="submit">Send message</button>
                 </fieldset>
             </form>
-        </div>
-        <div class="find-us item3">
-            <h2>Find Us</h2>
-        </div>
-        <div class="item4">
-            <p>Email: contact@rrw.com</p>
-            <p>Phone: 1-800-555-RAFT</p>
 
+            <div class="find-us">
+                <h2>Find Us</h2>
+            </div>
+            <div class="map item7">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6058.049036028581!2d-111.92165197464509!3d40.60728269475241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875288e10cdf3cc3%3A0xed1388d9a1e0aff2!2sHistoric%20Gardner%20Station!5e0!3m2!1sen!2sus!4v1744059138259!5m2!1sen!2sus"
+                    allow=fullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="item3">
+                <p>Email: contact@rrw.com</p>
+                <p>Phone: 1-800-555-RAFT</p>
+            </div>
 
-            <p class="item5">Address: 1127 W 7800 S, West Jordan, Utah, 84084</p>
+            <div class="item4">Address: 1127 W 7800 S,
+                <p> West Jordan, Utah, 84084</p>
+            </div>
+<div class="caption">
+                <p>Meet our river guides: Argyle, Bracict, Capernum, Faven, Gibbons, Inc, Jey, Lumen, Niev, Parker, and Uni.</p></div>
 
+                <img src="images/team-600.jpg" alt="ELeven rafting guides pose adound an inflatable raft on a rugged grassy shore">
 
 
 
@@ -85,17 +96,13 @@
                 <figcaption>Mike Johnson - Trip Coordinator</figcaption>
             </figure>
 
-            <div class="map item7">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6058.049036028581!2d-111.92165197464509!3d40.60728269475241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875288e10cdf3cc3%3A0xed1388d9a1e0aff2!2sHistoric%20Gardner%20Station!5e0!3m2!1sen!2sus!4v1744059138259!5m2!1sen!2sus"
-                    allow=fullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+
             <!--                  
                     Employee profile images with captions that include 
                     the titles of at least three, happy-looking employees. 
  Create a link to the Contact Us wireframe image in the footer of the contact.html 
      Wireframe: https://photos.app.goo.gl/M3jWtpxamMj1SZKn8  -->
-
+        </div>
         </div>
     </main>
     <footer>
