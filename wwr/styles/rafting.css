@@ -82,7 +82,7 @@
     --margin: 5px auto;
 }
 
-
+/* used on all pages */
 .hero {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -286,22 +286,15 @@ button {
     width: 100%;
 }
 
-.employee {    
+.employee {
     display: grid;
-    grid-column: 3;}
+    grid-column: 3;
+}
 
-.image-container img{
+.image-container img {
     max-width: 100%;
     height: auto;
 }
-
-
-
-
-
-
-
-
 
 footer {
     display: grid;
