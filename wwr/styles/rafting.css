@@ -198,7 +198,7 @@ h2 {
 /* used on contact.html */
 #grid-container {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 50% 25% 25%;
     gap: 10px;
     align-items: center;
     justify-items: center;
@@ -264,7 +264,7 @@ button {
     margin: 0 auto;
 }
 
-.item3 { 
+.item3 {
     display: grid;
     grid-column: 2;
     grid-row: 2;
@@ -277,20 +277,20 @@ button {
     grid-row: 2;
     text-align: center;
     margin: 0 auto;
-    }
+}
 
 
-.item5 {
+.guides {
     grid-column: 2;
     grid-row: 4;
-   width: auto;
+    width: 100%;
 }
 
 .employee {
     display: grid;
-grid-column: 3;
-    justify-items: center;
-    text-align: center;
+    grid-column: 3;
+    /* justify-items: center; */
+    /* text-align: center; */
 }
 
 
