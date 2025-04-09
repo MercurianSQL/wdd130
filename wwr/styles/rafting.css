@@ -198,21 +198,44 @@ h2 {
 }
 
 /* used on contact.html */
-#page-container {
+#grid-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    /* grid-template-rows: auto; */
+    grid-template-columns: 2fr 1fr 1fr;
     gap: 10px;
     align-items: center;
     justify-items: center;
     width: 100%;
 }
 
+.item1 {
+    display: grid;
+    grid-column: 1;
+    font-size: 3.5rem;
+}
+
 form {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    font-size: 1.2rem;
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 5px auto;
 }
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+label {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+
 
 button {
     font-size: 1.5rem;
@@ -221,10 +244,19 @@ button {
     text-align: center;
 }
 
-.action {
-    font-size: 3.5rem;
+.item2 {}
+
+.item3 {
+    font-size: 1.5rem;
     padding: 0;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
 }
 
 .email {
@@ -243,6 +275,7 @@ button {
     justify-items: inline-block;
     align-items: center;
 }
+
 .column1 {
     display: grid;
     /* grid-template-columns: repeat(2, auto); */
@@ -272,11 +305,13 @@ button {
     align-items: right;
     width: 100%;
 }
+
 .map {
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
+
 .map img {
     width: 100%;
     height: auto;
@@ -288,6 +323,7 @@ button {
     justify-content: center;
     align-items: center;
 }
+
 .new-team {
     /* display: grid; */
     width: 200px;
