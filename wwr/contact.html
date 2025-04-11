@@ -43,18 +43,22 @@
                 <fieldset class="column1">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" autocomplete="name">
+
                     <label for="email"> Email:</label>
                     <input type="email" id="email" name="email" autocomplete="email">
-                    <label for="general">General inquiry</label>
-                    <input type="radio" id="general" name="general">
-                    <label for="reserve">Reservation question</label>
-                    <input type="radio" id="reserve" name="reserve">
-                    <label for="website">Website suggestion</label>
-                    <input type="radio" id="website" name="Website">
+
+                    <label><input type="radio" name="contact" id="general">General inquiry</label>
+                    
+                    <label><input type="radio" name="contact" id="reserve">Reservation question</label>
+
+                    <label><input type="radio" name="contact" id="website">Website suggestion</label>
+                    
+
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-                    <label for="subscribe">Please, subscribe me to the monthly newsletter.</label>
-                    <input type="checkbox" id="subscribe" name="subscribe">
+                    
+                    <label><input type="checkbox" name="subscribe" id="subscribe">Please, subscribe me to the monthly newsletter.</label>
+                    
 
                     <button type="submit">Send message</button>
                 </fieldset>

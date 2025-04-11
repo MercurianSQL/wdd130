@@ -198,7 +198,7 @@ h2 {
 /* used on contact.html */
 #grid-container {
     display: grid;
-    grid-template-columns: 50% 25% 25%;
+    grid-template-columns: 2fr 1fr 1fr;
     gap: 5px;
     /* vertically aligns items inside their cells. */
     align-items: center;
@@ -208,18 +208,19 @@ h2 {
 }
 
 .column1 {
+    display: flexbox;
     grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-    margin: 0 auto;
-    height:auto
+    /* grid-row: 1; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    /* height:auto */
 }
 
 .item1 {
     /* grid-row: span 1; */
     font-size: 2rem;
-    height: 100%;
-    margin: 0 auto;
+    /* height: 100%; */
+    /* margin: 0 auto; */
 }
 
 form {
@@ -237,7 +238,7 @@ form {
 fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 label {
@@ -253,6 +254,8 @@ input {
 button {
     grid-column: span 2;
     font-size: 1.5rem;
+    width: 50%;
+    align-items: center;
 }
 
 
