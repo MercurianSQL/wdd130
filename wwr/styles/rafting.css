@@ -205,67 +205,74 @@ h2 {
     width: 100%;
 }
 
-.item1 {
-    display: grid;
+.column1 {
     grid-column: 1;
-    font-size: 3.5rem;
+    grid-row: 1;
+    text-align: center;
+    margin: 0 auto;
+    height:auto
+}
+
+.item1 {
+    /* grid-row: span 1; */
+    font-size: 2rem;
+    height: 100%;
+    margin: 0 auto;
 }
 
 form {
     display: grid;
-    grid-column: 1;
-    grid-row: span 3;
+    /* grid-column: 1; */
+    /* grid-row: span 3; */
     justify-content: center;
     justify-items: center;
     align-items: center;
     margin: 5px auto;
+    height: auto;
+    margin: 0 auto;
 }
 
 fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    font-size: 1.5rem;
 }
 
 label {
-    display: grid;
     grid-column: 1;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 input {
-    display: grid;
     grid-column: 2;
-    font-size: 1.5rem;
+    font-size: 1 rem;
 }
 
 button {
-    display: grid;
     grid-column: span 2;
     font-size: 1.5rem;
 }
 
 
 .find-us {
-    display: grid;
     grid-column: 2;
     grid-row: 1;
     font-size: 1.5rem;
     text-align: center;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .map {
-    display: grid;
     grid-column: 3;
     grid-row: 1;
+    grid-row: 1 span 2;
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
 
 .item3 {
-    display: grid;
     grid-column: 2;
     grid-row: 2;
     font-size: 1.2rem;
@@ -279,15 +286,18 @@ button {
     margin: 0 auto;
 }
 
-
 .guides {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: auto;
     width: 100%;
 }
 
+.office{
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+}
 .employee {
-    display: grid;
     grid-column: 3;
 }
 
