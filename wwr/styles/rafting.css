@@ -199,7 +199,8 @@ h2 {
 #grid-container {
     display: grid;
     grid-template-columns: 50% 25% 25%;
-    gap: 10px;
+    gap: 5px;
+    /* vertically aligns items inside their cells. */
     align-items: center;
     justify-items: center;
     width: 100%;
