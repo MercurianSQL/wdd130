@@ -202,6 +202,7 @@ h2 {
     gap: 5px;
     /* vertically aligns items inside their cells. */
     align-items: center;
+    /* horizontally aligns items inside their cells. */
     justify-items: center;
     width: 100%;
 }
