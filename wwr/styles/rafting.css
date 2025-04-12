@@ -220,15 +220,14 @@ h2 {
     grid-column: 1;
     margin: 0 auto;
 }
+
 .column2 {
-    grid-column: 2;
-    
+    grid-column: 2;  
     min-width: 0px;
 }
 
 .column3 {
-    grid-column: 3;
-    
+    grid-column: 3;  
 }
 
 .in-touch {
@@ -277,7 +276,6 @@ input[type="checkbox"] {
 .checkbox {
     grid-column: span 2;
     text-align: right;
-
 }
 
 button {
