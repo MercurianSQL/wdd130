@@ -212,7 +212,7 @@ h2 {
 
 .nested{
     display:grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: auto auto auto;
     gap: 5px;
     background: orange;
     border: 1px solid red;
