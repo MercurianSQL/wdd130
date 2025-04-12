@@ -201,7 +201,6 @@ h2 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 5px;
-    background: var(--background-color);
 }
 
 .nested{
@@ -215,29 +214,21 @@ h2 {
     gap: 10px;
     width: 100%;
     min-width: 0px;
-    background: orange;
-    border: 1px solid red;
 }
 
 .column1 {
     grid-column: 1;
     margin: 0 auto;
-    background: blue;
-    border: 10px solid red;
 }
 .column2 {
     grid-column: 2;
     
     min-width: 0px;
-    /* background: darkblue; */
-    border: 1px solid red;
 }
 
 .column3 {
     grid-column: 3;
     
-    background: purple;
-    border: 1px solid red;
 }
 
 .in-touch {
@@ -328,7 +319,6 @@ button {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    box-shadow:5px 5px rgba(253 232 41 / 1);
 }
 
 .map {
