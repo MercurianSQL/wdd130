@@ -366,7 +366,8 @@ button {
 }
 
 .home-cell{
-
+    align-self: center;
+    text-align: center;
 
 }
 
