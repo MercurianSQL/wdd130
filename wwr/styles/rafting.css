@@ -343,6 +343,33 @@ button {
 
 }
 
+/* used on trips page */
+
+.trips-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+.trips-container {
+    align-self: center;
+    text-align: center;
+}
+
+/* used on home page */
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.home-cell{
+
+
+}
+
 footer {
     display: grid;
     grid-template-columns: repeat(3, auto);
