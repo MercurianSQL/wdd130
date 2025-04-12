@@ -198,12 +198,12 @@ h2 {
 /* used on contact.html */
 .grid-container {
     display: grid;
-    /* grid-template-columns: 50% 25% 25%; */
+    grid-template-columns: 1fr .5fr .5fr;
     gap: 5px;
     /* vertically aligns items inside their cells. */
-    align-items: center;
+    align-items: start;
     /* horizontally aligns items inside their cells. */
-    justify-items: center;
+    justify-items: stretch;
     width: 100%;
     gap: 10px;
     background: lightblue;
