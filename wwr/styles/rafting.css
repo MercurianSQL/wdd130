@@ -225,6 +225,7 @@ h2 {
 
 form {
     display: grid;
+    grid-row: 2;
     /* grid-column: 1; */
     /* grid-row: span 3; */
     justify-content: center;
@@ -236,6 +237,7 @@ form {
 }
 
 fieldset {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -262,11 +264,13 @@ input[type="checkbox"] {
     transform: scale(1.5);
     margin: 5px;
 }
+
 .checkbox {
     grid-column: span 2;
     text-align: right;
-    
+
 }
+
 button {
     grid-column: span 2;
     font-size: 1.3rem;
@@ -274,9 +278,17 @@ button {
     justify-self: center;
 }
 
+.column2 {
+    grid-column: 2;
+
+}
+
+.column3 {
+    grid-column: 3;
+
+}
 
 .find-us {
-    grid-column: 2;
     grid-row: 1;
     font-size: 1.5rem;
     text-align: center;
