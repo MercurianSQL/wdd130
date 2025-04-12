@@ -238,6 +238,7 @@ form {
 fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     gap: 5px;
 }
 
@@ -246,16 +247,31 @@ label {
     font-size: 1.2rem;
 }
 
-input {
-    grid-column: 2;
-    font-size: 1 rem;
+input[type="radio"] {
+    transform: scale(1.5);
+    margin: 5px;
 }
 
+.radio {
+    grid-column: span 2;
+    text-align: left;
+    margin-left: 80px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 5px;
+}
+.checkbox {
+    grid-column: span 2;
+    text-align: right;
+    
+}
 button {
     grid-column: span 2;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 50%;
-    align-items: center;
+    justify-self: center;
 }
 
 
@@ -297,11 +313,12 @@ button {
     width: 100%;
 }
 
-.office{
+.office {
     grid-column: 3;
     grid-row: 3;
     text-align: center;
 }
+
 .employee {
     grid-column: 3;
 }
