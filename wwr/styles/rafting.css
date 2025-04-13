@@ -28,6 +28,7 @@
     font-weight: 700;
     font-style: normal;
 }
+
 /* no italic fonts per aria */
 /* .ubuntu-light-italic {
     font-family: "Ubuntu", sans-serif;
@@ -174,6 +175,10 @@ h2 {
     display: grid;
     text-align: center;
 }
+
+
+}
+
 
 .history {
     display: grid;
@@ -357,6 +362,11 @@ button {
 }
 
 /* used on home page */
+h2 a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -374,8 +384,18 @@ button {
 .e-form {
     display: grid;
     gap: 5px;
-    font-size: 5rem;
-    background-color: green;
+    /* background-color: green; */
+}
+
+.e-form label {
+    font-size: 1.5rem;
+}
+
+.news-button {
+    grid-column: span 2;
+    font-size: 1.3rem;
+    width: 100%;
+    justify-self: center;
 }
 
 footer {
