@@ -101,16 +101,15 @@
     width: 1000px;
 }
 
-.team {
+.team img{
     border: 1px solid black;
     padding: 0;
     box-shadow: 0 0 30px #5F9747;
     float: right;
     margin: 0 0 1rem 1rem;
     text-align: justify;
-
 }
-
+/* this needs cleaning */
 .hero-text img {
     width: 150px;
     height: auto;
@@ -119,7 +118,12 @@
     box-shadow: 0 0 30px #5F9747;
     float: right;
     margin: 0 0 1rem 1rem;
+}
 
+.splash {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: 0 0 30px black;
 }
 
 header {
