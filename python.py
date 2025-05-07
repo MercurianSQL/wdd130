@@ -38,6 +38,8 @@ color = input ("Please type your favorite color: ")
 print ("Your favorite color is")
 print (color)
 #  why does this use parenthesis instead of curly brackets?
+"""What does that 'f mean?"""
+
 name = input ("Pleae enter your name: ")
 print (name)
 print ()
